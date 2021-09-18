@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 4</title>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form_challenge_style.css">
 </head>
 <body>
-    <h2>Voter Registration</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquam repudiandae cupiditate velit harum, minima pariatur illum laborum dignissimos. Quisquam, sit. Dolore, quis.</p>
+    <div class="container">
+    <form action="">
+    <h1 class="heading">Information Form</h1>
+    <p>* fields are required</p>
+    <p> Name:* <input type="text" name="name" id="name" required placeholder="munna bhaiya" > </p>
+    <fieldset>
+        <legend>Gender*</legend>
+        <p>
+         Male <input type="radio" name="Gender" id="Male" required> Female <input type="radio" name="Gender" id="Female" required>
+           Other <input type="radio" name="Gender" id="Other" required>   
+        </p>
+    </fieldset>
+    <p>Mobile number* <input type="number" name="Mobile number" required placeholder="+91"></p>
+    <p>Mail Id* <input type="email" name="mail" required placeholder=""></p>
+    <p>City* 
+        <select name="city" id="city">
+       <option value="">--Select city--</option>
+       <option value="Bhopal">Bhopal</option>
+       <option value="Indore">Indore</option>
+    </select>
+    </p>
+    <input type="submit" value="SUBMIT">
+</form> 
+</div>  
 </body>
-</html>
+</html> 

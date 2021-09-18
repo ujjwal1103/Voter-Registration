@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    
+     }
+ .heading{
+     text-align: center;
+     color: rgb(10, 248, 228);
+     background-color: rgb(135, 74, 250) ;
+     padding: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif ;
+     letter-spacing: 2px;
+     margin: 30px;
+     
+ }
+ body{
+     padding: 10px;
+     margin: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+ }
+ .container{
+     background-color: rgb(238, 238, 238);
+     border: 2px solid rgb(75, 219, 255);
+     border-radius: 5px;
+     padding: 30px;
+ }
+ input[type="text"],
+ input[type="email"],
+ input[type="number"],
+ select,
+ textarea {
+     width: 100%;
+     padding: 10px;
+     border: 1px solid skyblue;
+     border-radius: 5px;
+     margin: 8px;
+ }
+ 
+ fieldset{
+     background-color: rgb(255, 255, 255);
+     border: 1px solid skyblue;
+ }
+ 
+ input[type="submit"]
+ {
+     background-color: rgb(0, 131, 0);
+     color: rgb(255, 255, 255);
+     border: none;
+     padding: 16px 20px;
+     width: 100%;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: xx-large;
+ }
+ input[type="submit"]:hover{
+     background-color: rgb(7, 170, 15);
+ }
