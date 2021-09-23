@@ -2,34 +2,35 @@
     box-sizing: border-box;
     
      }
- .heading{
-     text-align: center;
-     color: rgb(10, 248, 228);
-     background-color: rgb(135, 74, 250) ;
-     padding: 20px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif ;
-     letter-spacing: 2px;
-     margin: 30px;
- }
 
- nav{
+ .dabba{
      background-color: black;
      padding: 20px;
+     padding-bottom: 100px;
+     
  }
- .hindi{
-     text-align: center;
-     color: blanchedalmond;
+ .box1{
+     float: left;
+     padding-left: 50px;
  }
- .eng{
+ .box{
+   float:right;
+   padding-right: 50px;
+ }
+ h3{
      text-align: center;
-     color: blanchedalmond;
+     float: top;
+     color: ivory;
+     font-size:x-large;
  }
  .flag{
-     place-content: left;
-  }
+     float: left;
+    
+ }
  .vote{
-    object-position: top;
-   }
+    float: right;
+    
+     }
  body{
     padding: 10px;
     margin: 20px 0px 20px;
@@ -40,8 +41,8 @@
      background-color: rgb(238, 238, 238);
      border: 2px solid rgb(75, 219, 255);
      border-radius: 5px;
-     padding: 30px;
-     margin: 30px 20px;
+     padding:20px;
+     margin:20px;
  }
  input[type="text"],
  input[type="email"],
